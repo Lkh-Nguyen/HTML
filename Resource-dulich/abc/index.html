@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Travel Maldives</title>
+	<!-- Embed css here -->
+
+	<link rel="stylesheet" href="CSS/styleindex.css">
+</head>
+
+<body>
+
+	<div class="header">
+
+
+		<div class="logo"> <!--logo-->
+			<a href="index.html"><img src="images/Logo.PNG"></a>
+		</div>
+
+		<div class="menu"> <!--content menu-->
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Tours</a></li>
+				<li><a href="#">Promotion Tours</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="search"> <!--content search-->
+			<form>
+				<input type="text" placeholder="Search Tour">
+				<button class="submit" type="submit" id="searchbt">Search</button>
+			</form>
+
+		</div>
+
+	</div> <!--Kết thúc header-->
+
+
+	<div class="banner"> <!--content banner-->
+		<div class="img1">
+			<img src="images/Monivongsa-Bopharam.jpg" alt="Chua Monivongsa-Bopharam" />
+		</div>
+		<div class="img2">
+			<img src="images/muicamau.jpg" alt="Mui Ca Mau" />
+		</div>
+
+	</div><!--Kết thúc Banner-->
+
+	<div class="detail"> <!--content detail-->
+		<h1>The beautiful tourist destination of Ca Mau is a must to visit</h1>
+		<p>Ca Mau is known as the end of the country and is always a must-visit Western tourist destination once in the
+			life of every Vietnamese. The last province of the Vietnamese Fatherland with three sides mainly bordering
+			the sea, coming here visitors will visit the national coordinate landmark, watch the forest, the sea, admire
+			the sunset in the vast sky and sea. Ca Mau exudes a poetic and lyrical, peaceful and rustic beauty that
+			captivates the hearts of visitors. Please introduce the beautiful tourist destinations of Ca Mau not to be
+			missed.</p>
+	</div>
+	<div class="tour">
+		<div class="tour-1">
+			<div class="choose">
+				--------------- Choose your favorite tour ---------------
+
+			</div>
+			<div class="tour-2">
+				<table>
+				<div style="display: flex;">
+					<tr>
+						<td>Tour</td>
+						<td>
+							<select id="TourId" name="name" onchange="updatePrice()  ">
+							<option value="100">TPHCM-Mui Ne</option>
+							<option value="150">TPHCM-Ca Mau</option>
+							<option value="90">TPHCM-Vung Tau</option>
+							<option value="120">TPHCM-DaLat</option>
+							<option value="110">TPHCM-Ho Tram</option>
+							</select>
+						</td>
+						<td><div style="color: coral;" id="mm" name="mm">100$/Person</div></td>
+					</tr>			
+				</div>
+				<tr>
+					<td>Number of people</td>
+					<td><input type="text" name="people" id="numberPP"></br></td>
+				</tr>
+				<tr>
+					<td>Departure day</td>
+					<td><input type="text"></br></td>
+				</tr>
+				<tr>
+					<td>End date</td>
+					<td><input type="text"></br></td>
+				</tr>
+				<tr>
+					<td>FullName</td>
+					<td><input type="text"></br></td>
+				</tr>
+				<tr>
+					<td>Phone</td>
+					<td><input type="text"></br></td>
+				</tr>
+				</table>
+				<div id="Total" name="Total" > </div>
+			</div>
+			<div class="book">
+				<input type="submit" id="booktour" value="Book Tour">
+			</div>
+		</div>
+	</div>
+	<div id="total">
+		<span>Total amount: </span> <span id="price"></span>
+	</div>
+
+
+	<!--Embed Javascript here-->
+	<script src="js/mycode.js">
+	</script>
+
+</body>
+
+
+</html>

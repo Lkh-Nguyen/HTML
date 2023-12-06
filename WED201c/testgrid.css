@@ -1,0 +1,31 @@
+.m1{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.m2{
+    background-color: green;
+    margin-bottom: 20px;
+}
+.m3{
+    background-color: rgb(255, 127, 202);
+}
+.m3{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-right: 20px; 
+}
+.m4{
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+.m5{
+    background-color: blue;
+    margin-top: 10px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 400px 1000px;
+    grid-template-rows: 300px 150px 150px;
+}

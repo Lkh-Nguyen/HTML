@@ -1,0 +1,113 @@
+body{
+    margin-left:300px;
+    margin-right: 300px;
+    border: solid 1px rgb(151, 151, 218);
+}
+#header{
+    display: flex;
+    width: 1290px;
+}
+#list{
+    width: 45%;
+}
+#list ul{
+    display: flex;
+    margin-left: 5%;
+}
+#list ul li{
+    list-style-type: none;
+    margin-left: 4%;
+}
+#list ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#imgH{
+    width: 6%;
+}
+#imgH img{
+    width: 100%;
+}
+#searchH{
+    margin-left: 25%;
+    margin-top: 1%;
+    display: flex;
+}
+#searchH button{
+    background-color: black;
+    color: white;
+}
+#banner{
+    width: 1290px;
+}
+#banner img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 1290px;
+    height: 1000px;
+}
+
+#mainL{
+    width: 1250px;
+    height: atuo;
+    background-color: grey;
+    margin-right: 30px;
+}
+.mainH1{
+    background-color: rgb(201, 76, 4);
+    width: 100%;
+    margin-top:-22px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+}
+#mainL ul{
+    margin-bottom: 40px;
+}
+#mainL ul li{
+    margin-top: 5px;
+}
+#mainL p{
+    margin-top:-35px;
+    margin-left:40px
+}
+
+#mainR h1{
+    text-align: center;
+    color: rgb(91, 91, 230)
+}
+.ip13{
+    display: flex;
+    border: solid 1px grey;
+    padding: 10px
+}
+.ip13 img{
+    width: 30%;
+}
+.ip13R{
+    margin-top: -20px;
+    margin-left: 10px
+}
+.price{
+    display: flex;
+    width: 100%;
+}
+
+.price img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p1{
+    margin-left: 20px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    width: 30%;
+}

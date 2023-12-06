@@ -1,0 +1,86 @@
+.header{
+    width: 1890px;
+    display: flex;
+}
+.menu{
+    width: 43%;
+    margin-left: 2%;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.search{
+    margin-left: 30%;
+}
+.main{
+    display: flex;
+}
+#banner{
+    width: 50%;
+    margin-right: 4%;
+}
+#banner img{
+    width: 100%;
+}
+.register{
+    width: 30%;
+}
+.form h1{
+    color: rgb(253, 173, 0);
+    text-align: center;
+    font-size: 40px;
+}
+.form label{
+    font-size: 20px;
+    color: rgb(253, 173, 0);
+}
+
+#name label{
+    
+    margin-right: 60px;
+}
+#name input{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 25px;
+}
+#phone label{
+    margin-right: 90px;
+}
+#phone input{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 25px;
+}
+#car label{
+    margin-right: 62px;
+}
+#car select{
+    margin-bottom: 15px;
+    width: 410px;
+    height: 32px;
+}
+#comment label{
+    margin-right: 10px;
+}
+#comment textarea{
+    width: 405px;
+    height: 150px;
+}
+
+#sbrs{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+#sbrs input{
+    background-color: rgb(253, 173, 0);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-color: rgb(253, 173, 0);
+    margin-right: 10px;
+}

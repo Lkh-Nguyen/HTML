@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript Example</title>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html>
+    <head>
+        <title>Xóa thẻ HTML - freetuts.net</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Thêm thẻ HTML</h1>
+ 
+        <input type="text" id="title" value=""/> 
+        <input type="button" id="button_add" value="Add"/>
+         
+        <div id="result"></div>
+
+        <script language="Javascript">
+            var title = document.getElementById("title");
+            var add =  document.getElementById("button_add");
+            var result = document.getElementById("result");
+            add.addEventListener("click",function(){
+                var string = `<p> ${title.value} </p>`;
+                result.insertAdjacentHTML('afterend', string);
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- <div id="main">Hello 500ae</div>
+    <input type="button" value="lấy nd" id="get_content" onclick="get_content()">
+    <input type="button" value="thay đổi nc" id="set_content" onclick="set_content()">
+    <script>
+        function set_content(){
+            document.getElementById("main").innerHTML="<h1>Nội dung đã thay đổi</h1>";
+        }
+        function get_content(){
+            var html = document.getElementById("main").innerHTML;
+            alert("Nội dung cần lấy "+ html);
+        }
+    </script> -->
+
+
+
+    <!-- <input type="button" value="click_me" id="change" onclick="change_textox()">
+    <script>
+        function change_textox(){
+            var object = document.getElementById("change");
+            var type = object.type;
+            if(type === "button"){
+                object.type = "radio";
+            }else{
+                object.type = "button";
+            }
+        }
+    </script> -->
+
+
+
+
+
+    <!-- <div id="content">ND của thẻ div</div>
+    <script>
+        var content_append = " và rất đẹp";
+        var object = document.getElementById("content");
+        var content_now = object.innerHTML;
+        object.innerHTML= content_now + content_append;
+    </script> -->
+
+    
+
+
+
+
+    <!-- <ul div="hello">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+    <script>
+        var listItem = document.querySelector('li'); // Chọn phần tử đầu tiên
+            document.write(listItem.innerHTML);
+            var nextListItem = listItem.nextElementSibling; // Truy cập phần tử <li> tiếp theo
+            document.write(nextListItem.innerHTML);
+    </script> -->
+    
+
+
+
+
+
+
+
+
+
+
+    <ul id="dropdown">
+        <li><a href="#">Trang chủ</a></li>
+        <li>
+            <a href="#">Sản phẩm</a>
+            <ul>
+                <li><a href="#">Gạch cao cấp</a></li>
+                <li><a href="#">Gạch thủ công</a></li>
+                <li><a href="#">Gạch hoa văn</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Tin tức</a>
+            <ul>
+                <li><a href="#">Tin công nghệ</a></li>
+                <li><a href="#">Tin trong nước</a></li>
+                <li><a href="#">Tin thời sự</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Dịch vụ</a>
+            <ul>
+                <li><a href="#">Thiết kế web</a></li>
+                <li><a href="#">Quảng cáo web</a></li>
+                <li><a href="#">Thiết kế đồ họa</a></li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+        // Lấy tất cả các thẻ a trong menu
+        var menuItems = document.querySelectorAll('#dropdown > li > a');
+
+        // Duyệt qua mỗi thẻ a và thêm sự kiện mouseover và mouseout
+        // menuItems.forEach(function (item) {
+        //     item.addEventListener('mouseover', function () {
+        //         // Hiển thị dropdown khi rê chuột vào thẻ a
+        //         this.nextElementSibling.style.display = 'block';
+        //     });
+
+        //     item.addEventListener('mouseout', function () {
+        //         // Ẩn dropdown khi rời chuột khỏi thẻ a
+        //         this.nextElementSibling.style.display = 'none';
+        //     });
+        // });
+
+            for(var i=0;i<menuItems.length; i++){
+                menuItems[i].onclick = function(){
+                    this.nextElementSibling.style.display = 'block';
+                }
+                menuItems[i].onclickout = function(){
+                this.nextElementSibling.style.display = 'none';
+                }
+            }
+
+        // var menu = document.querySelectorAll('#dropdown > li');
+        // for (var i = 0; i < menu.length; i++) {
+        //     menu[i].addEventListener("click", function () {
+        //         var menuList = document.querySelectorAll('#dropdown > li > ul');
+        //         for (var j = 0; j < menuList.length; j++) {
+        //             menuList[j].style.display = "none";
+        //         }
+        //         this.children[1].style.display = "block";
+        //     });
+        // }
+       
+    </script>
+</body>
+</html>

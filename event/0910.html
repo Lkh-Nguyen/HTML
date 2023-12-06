@@ -1,0 +1,198 @@
+    <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="0910.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <!-- <input type="button" value="Change background" onclick="change_background()">
+    <input type="button" value="Change height" onclick="change_height()">
+    <input type="button" value="Change color" onclick="change_color()">
+    <input type="button" value="Change fontsize" onclick="change_fontsize()">
+    <script>
+        function change_background(){
+            document.getElementById("message").style.background="red";
+        }
+        function change_color(){
+            document.getElementById("message").style.color = "white ";
+        }
+        function change_height(){
+            document.getElementById("message").style.height = "500px";
+        }
+        function change_fontsize(){
+            document.getElementById("message").style.fontSize= "50";
+        } 
+        </script>
+    
+
+
+
+
+        
+
+        Username: <input type="text" id="input_username" placeholder="Nhập tài khoản"><br>
+        Password: <input type="text" placeholder="Nhập mật khẩu" id="input_password">
+        <div id="message"></div>
+        <input type="button" value="Login" onclick="validate()">
+        <script>
+            function validate(){
+                var Username = document.getElementById("input_username").value;
+                var Password = document.getElementById("input_password").value;
+                var message = document.getElementById("message");
+                if(Username == "" || Password == ""){
+                    message.innerHTML = "Đăng nhập không thành công.";
+                    message.style.color="red";
+                }else{
+                    message.innerHTML = "Đăng nhập thành công.";
+                    message.style.color = "green";
+                }
+            }
+    </script>
+
+
+
+
+
+
+
+     <div id="Meo">meo meo</div>
+    <input type="button" name="" id="button">
+    <script>
+        // var h1=document.createElement("h1");
+        //cách 1.
+        // p.innerHTML = "học hành là quá trình gian khó";
+        // document.getElementsByTagName('body')[0].appendChild(p);
+
+        //cách 2.
+        // var text = document.createTextNode("Học là bùn ngủ");
+        // h1.appendChild(text);
+        //  documex`nt.getElementsByTagName('body')[0].appendChild(h1);
+
+
+
+        var button = document.getElementById("button");
+        button.addEventListener("click",function(){
+            var h1 = document.createElement(h1);
+            h1.innerHTML = "<br><h1>học hành là quá trình gian khó</h1>";
+            document.getElementById("Meo").appendChild(h1);
+        });
+    </script> 
+
+
+
+
+
+
+     <input type="text" onchange="validate(this)()" name="product_name" init-value="20" value="20">
+    <script>
+        function validate(obj) {
+                var value = parseInt(obj.value);
+                if (value < 0) {
+                    var init_value = obj.getAttribute("init-value");
+                    obj.value = init_value;
+                }else{
+                    obj.setAttribute("init-value",value);
+                }
+            }
+    </script> 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <div id="content" >
+        không chịu khổ được thì dừng
+    </div>
+    <input type="button" value="Nội dung 1" onclick="change1()">
+    <input type="button" value="Nội dung 2" onclick="change2()">
+    <input type="button" value="Về ban đầu" onclick="change3()">
+    <script>
+        var content = document.getElementById("content");
+        var innerHTML = content.innerHTML;
+        function change1(){
+            content.innerHTML ="ăn quả nhớ kẻ trồng cây";
+        }
+        function change2(){
+            content.innerHTML = "có chí thì nên";
+        }
+        function change3(){
+            content.innerHTML = innerHTML;
+        }
+    </script> 
+
+
+
+
+
+
+     <div id="bg">
+        hello
+    </div>
+    <input type="button" value="Màu đỏ" id="bt1">
+    <input type="button" value="Màu vàng" id="bt2">
+    <input type="button" value="quay trở lại" id="bt3"> 
+    <script>
+        var bg = document.getElementById("bg");
+        var bgcolor = bg.style.background;
+        var bt1 = document.getElementById("bt1");
+        var bt2 = document.getElementById("bt2");
+        var bt3 = document.getElementById("bt3");
+        bt1.onclick = function(){
+            bg.style.background="red";
+        }
+        bt2.addEventListener('click',function(){
+            bg.style.background = "yellow";
+        });
+        bt3.onclick = function(){
+            bg.style.background = bgcolor;
+        }
+    </script>
+
+
+
+    <div >
+        <img id="img" src="Avatar-dep-nhat-119_112148 (1).jpg" alt="">
+    </div>
+    <input type="button" value="Ảnh1" id="bt1">
+    <input type="button" value="Ảnh2" id="bt2">
+    <input type="button" value="quay trở lại" id="bt3">
+    <script>
+        var img = document.getElementById("img");
+        var bt1 = document.getElementById("bt1");
+        var bt2 = document.getElementById("bt2");
+        var hinh =  img.src;
+        var hinh1 = "https://hedieuhanh.com/wp-content/uploads/2019/08/Avatar-dep-nhat-91_112148.jpg";
+        var hinh2 = "https://tinviet365.net/wp-content/uploads/2020/04/%E1%BA%A2nh-anime-chibi-d%E1%BB%85-th%C6%B0%C6%A1ng-225x300.jpg";
+        bt1.onclick = function(){
+            img.src = hinh1;
+        }
+        var bt2 = document.getElementById("bt2");
+        bt2.onclick = function (){
+           img.src = hinh2;
+        }
+        var bt3 = document.getElementById("bt3");
+        bt3.onclick = function(){
+            img.src = hinh;
+    
+        }
+    </script>  -->
+
+</body>
+
+</html>

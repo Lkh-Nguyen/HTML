@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-favorite-body">
+        <form>
+            <div class="form-content">
+                <div class="form-input">
+                    <label for="tour">Tour</label>
+                    <select name="tour" id="tour">
+                        <option value="1">TPHCM - Ca Mau</option>
+                        <option value="2">HN - Ca Mau</option>
+                        <option value="3">HP - Ca Mau</option>
+                    </select>
+                    <div id="price">121</div>
+                </div>
+                <div class="form-input">
+                    <label for="number">Number of people</label>
+                    <input type="number" id="number">
+                </div>
+                <div class="form-input">
+                    <label for="depature">Depature day</label>
+                    <input type="input" id="depature">
+                </div>
+                <div class="form-input">
+                    <label for="enddate">End date</label>
+                    <input type="input" id="enddate">
+                </div>
+                <div class="form-input">
+                    <label for="fullname">FullName</label>
+                    <input type="text" id="fullname">
+                </div>
+                <div class="form-input">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone">
+                </div>
+            </div>
+            <div class="book-tour">
+                <button type="button" onclick="CalTotal()">Book Tour</button>
+            </div>
+            <div id="total-amount">Total amount: <span id="amount"> </span></div>
+        </form>
+    </div>
+    </div>
+    <script src="mycode1.js"></script>
+</body>
+</html>

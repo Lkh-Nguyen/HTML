@@ -1,0 +1,61 @@
+.form{
+    margin-left: 700px;
+    border: 1px solid black;
+    height: 320px;
+    width: 600px;
+    background-color: bisque;
+    padding: 20px;
+}
+.input{
+    margin-bottom: 10px;
+}
+.input label{
+    font-weight: 400;
+    font-size: 20px;
+}
+.option{
+    margin-left: 150px;
+    width: 250px;
+    height: 30px;
+}
+#number{
+    margin-left: 41px;
+    width: 250px;
+    height: 30px;
+}
+#departure{
+    margin-left: 74px;
+    width: 250px;
+    height: 30px;
+}
+#endDate{
+    margin-left: 117px;
+    width: 250px;
+    height: 30px;
+}
+#fullName{
+    margin-left: 110px;
+    width: 250px;
+    height: 30px;
+}
+#phone{
+    margin-left: 140px;
+    width: 250px;
+    height: 30px;
+}
+.book_tour{
+    text-align: center;
+}
+#booktour{
+    margin-left:-50px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#booktour:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}

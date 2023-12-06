@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="hello">
+    </div>
+    <p>Tọa độ X: <span id="x"></span>- Tọa độ Y: <span id="y"></span></p>
+    <script>
+        var hello = document.getElementById("hello");
+        hello.onmousemove= function(e){
+            var x = e.clientX;
+            var y = e.clientY;
+            document.getElementById("x").innerHTML=x;
+            document.getElementById("y").innerHTML=y;
+        }
+    </script> -->
+
+    <div onmousemove="myMoveFunction()">
+        <p>
+            onmousemove: <br />
+            <span id="demo">Mouse over me!</span>
+        </p>
+    </div>
+    
+    <div onmouseenter="myEnterFunction()">
+        <p>
+            onmouseenter: <br />
+            <span id="demo2">Mouse over me!</span>
+        </p>
+    </div>
+    
+    <div onmouseover="myOverFunction()">
+        <p>
+            onmouseover: <br />
+            <span id="demo3">Mouse over me!</span>
+        </p>
+    </div>
+    <script language="javascript">
+        var x = 0;
+        var y = 0;
+        var z = 0;
+        function myMoveFunction() {
+            document.getElementById("demo").innerHTML = z += 1;
+        }
+
+        function myEnterFunction() {
+            document.getElementById("demo2").innerHTML = x += 1;
+        }
+
+        function myOverFunction() {
+            document.getElementById("demo3").innerHTML = y += 1;
+        }
+    </script>
+</body>
+</html>

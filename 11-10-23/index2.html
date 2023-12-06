@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="order">
+        <form class="menu-list">
+            <div class="menu-list_header">
+                <p class="menu-list_header-first">IceCream & Milk Tea</p>
+                <span class="menu-list_header-second">
+                    <hr class="minus">Menu List<hr class="minus">
+                </span>
+            </div>
+            <div class="menu-list_content">
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2" id="coconut">
+                        <label for="coconut">Coconut cream</label>
+                    </div>
+                    <span class="menu-list_item-price">2$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2.5" id="strawberry">
+                        <label for="strawberry">Strawberry ice-cream</label>
+                    </div>
+                    <span class="menu-list_item-price">2.5$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="3" id="durian">
+                        <label for="durian">Durian ice-cream</label>
+                    </div>
+                    <span class="menu-list_item-price">3$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2" id="buttermilk">
+                        <label for="buttermilk">Buttermilk ice-cream</label>
+                    </div>
+                    <span class="menu-list_item-price">2$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2.5" id="mango">
+                        <label for="mango">Mango ice-cream</label>
+                    </div>
+                    <span class="menu-list_item-price">2.5$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="3" id="milktea">
+                        <label for="milktea">Milk tea</label>
+                    </div>
+                    <span class="menu-list_item-price">3$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2" id="matcha">
+                        <label for="matcha">Matcha milk tea</label>
+                    </div>
+                    <span class="menu-list_item-price">2$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="2.5" id="coffee">
+                        <label for="coffee">Coffee milk tea</label>
+                    </div>
+                    <span class="menu-list_item-price">2.5$</span>
+                </div>
+                <div class="menu-list_item">
+                    <div>
+                        <input type="checkbox" name="item" value="3" id="caramel">
+                        <label for="caramel">Caramel milk tea</label>
+                    </div>
+                    <span class="menu-list_item-price">3$</span>
+                </div>
+    
+            </div>
+            <button class="order-button" type="button" onclick="CalTotal()">Order</button>
+        </form>
+    
+        <form class="menu-list">
+            <div class="menu-list_header">
+                <p class="menu-list_header-first">Your IceCream & Milk Tea</p>
+                <span class="menu-list_header-second">
+                    <hr class="minus">Menu List<hr class="minus">
+                </span>
+            </div>
+            <div class="menu-list_content">
+    
+            </div>
+            <div class="menu-list_footer">
+                Total amount: <span id="total-price"></span>
+            </div>
+        </form>
+    </div>
+    <script src="mc2.js"></script>
+</body>
+</html>

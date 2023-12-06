@@ -1,0 +1,68 @@
+#main{
+    display: flex;
+    margin: 50px 600px;
+}
+#left{
+    margin-right: 50px;
+}
+
+.top{
+    background-color: rgb(140, 243, 140);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    padding-top:2px;
+}
+.top h1{
+    font-size: 25px;
+}
+.top p{
+    font-size: 20px;
+}
+.menu{
+    background-color: rgb(243, 226, 205);
+    height: auto;
+}
+.menulist{
+    display: flex;
+}
+.hello{
+    width: 90%;
+}
+.price{
+    color: orange;
+    font-weight: bold;
+}
+
+#order{
+    text-align: center;
+    margin-top: 30px;
+}
+#orderMenu{
+    background-color: rgb(240, 118, 73);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+#orderMenu:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(240, 118, 73);
+}
+
+#total{
+    display:  none;
+    background-color: aquamarine;
+    height: auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#total label{
+    font-size: 16;
+    font-weight: bold;
+    color: black;
+}

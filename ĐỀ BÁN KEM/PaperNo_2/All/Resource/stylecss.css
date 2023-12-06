@@ -1,0 +1,210 @@
+body{
+    margin: 0px 400px;
+}
+.header{
+    width: 1190px;
+    height: auto;
+    display: flex;
+    height: 100px;
+}
+#p1H{
+    color: green;
+    width: 40%;
+    font-family: Ephesis;
+    font-size: 200%;
+    margin-left: 5%;
+}
+#imgH{
+    width: 20%;
+}
+#imgH img{
+    width: 41%;
+    border: solid 2px rgb(158, 158, 158);
+    border-radius: 100%;
+}
+#p2H{
+    color: green;
+    margin-left: 5%;
+    font-family: Ephesis;
+    font-size: 200%;
+}
+
+.menu{
+    margin-top: -10px;
+    width: 1190px;
+    height: 30px;
+    background-color: green;
+}
+.menu ul {
+    display: flex;
+    margin-left: 150px;
+    padding-top: 6.5px;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.banner{
+    width: 1190px;
+    display: flex;
+}
+#b1{
+    width: 49.5%;
+}
+#b1 img{
+    width: 100%;
+}
+#b2{
+    width: 50.5%;
+}
+#b2 img{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    margin-top: 10px;
+}
+#pd{
+    width: 45%;
+}
+#pd img{
+    width: 100%;
+}
+.content{
+    margin-top: -20px;
+    width: 53%;
+    margin-left: 20px;
+}
+
+.content h2{
+    color: rgb(214, 99, 118);
+}
+.content p{
+    margin-top: -5px;
+}
+.content ul{
+    
+}
+.content ul li{
+    color: rgb(146, 229, 235);
+    list-style-type: disc;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer{
+    width: 1190px;
+    background-color: green;
+    height: 120px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer p{
+    color: white;
+}
+.footer h5{
+    color: white
+}
+.menuList{
+    width: 1190px;
+    height: 450px;
+    display: flex;
+}
+
+.menuL{
+    width: 50%;
+    margin-left: 16%;
+    width: 400px;
+}
+.top{
+    width: 400px;
+    background-color: green;
+    margin-bottom: -20px;
+    text-align: center;
+    color: white;
+}
+.top h1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.top h2{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.listPrice{
+    width: 100%;
+    background-color: rgb(255, 241, 214);
+    height: auto;
+}
+
+.listPrice span{
+    float: right;
+    margin-right: 5px;
+    color: rgb(247, 179, 53);
+}
+.listPrice input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.price{
+    margin-bottom: 10px;
+}
+.menuR{
+    margin-left: 50px;
+}
+.top2{
+    width: 400px;
+    background-color: green;
+    margin-bottom: -20px;
+    text-align: center;
+    color: white;
+}
+.top2 h1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.top2 h2{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.listorder{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+.listorder p{
+    padding-top: 8.5px;
+}
+#btsubmit{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 200px;
+}
+#submit{
+    margin-top: 5px;
+    background-color: rgb(253, 107, 43);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
+#total{
+    display: none;
+    text-align: center;
+    background-color: rgb(253, 107, 43);
+    width: 400px;
+    padding: 15px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: -16px;
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IceCream</title>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"> 
+<!--Embed CSS here-->
+<link rel="stylesheet" href="stylecss.css">
+
+
+</head>
+
+<body>
+
+<div> <!--container-->
+		
+	<div class="header"> <!--content header-->
+	 
+		 <div id="p1H">
+			<p>1 cup of ice cream = Thousand words of love</p>
+		 </div>
+	 
+		 <div id="imgH">
+			<img src="images/logoice.png" alt="Ice Cream" />
+		 </div>
+
+		 <div id="p2H">
+			<p>Where love begins</p>
+		 </div>
+	 	
+	 </div><!-- kết thúc header-->
+	 
+	 <div class="menu"> <!--content menu-->
+	 	
+	 	<ul>
+			  <li><a href="#home">Home</a></li>
+			  <li><a href="#about">About</a></li>
+			  <li><a href="#news">Ice Cream Menu</a></li>
+			  <li><a href="#contact">Milk Tea Menu</a></li>
+			  <li><a href="#contact">Events</a></li>
+			  <li><a href="#contact">News</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  
+		</ul>
+	 	
+	 	
+	 </div> <!--kết thúc menu-->
+	 
+	 <div class="banner"> <!--content banner-->
+	 
+	 	<div id="b1"><img src="images/Bannerice01.jpg" alt="Ice Cream"/></div>
+		<div id="b2"><img src="images/Bannerice02.jpg" alt="Ice Cream"/></div>
+	 	
+	 	
+	 </div> <!--kết thúc banner-->
+	 
+	<div class="main">
+	 <div id="pd"> <!--image product-->
+	 	
+	 	<img src="images/kemsaurieng.jpg"  alt="Durian ice-cream"/> 
+	 	
+	 </div> <!--kết thúc image product-->
+	 
+	 <div class="content"> <!--detail content-->
+	 
+	 	<h2>Durian ice-cream</h2>
+	 	
+	 	<p>Durian ice cream is a favorite dessert made from durian</p>
+	 	
+	 	<p>Durian ice cream is both an attractive dessert and at the same time a food that provides us with a lot of energy (about 456 calories)</p>
+	 	
+	 	<p>8 simple ways to make durian ice cream at home very delicious</p>
+	 	<ul>
+			<li>How to make durian ice cream with whipping cream </li>
+			<li>How to make durian ice cream without eggs </li>
+			<li>How to make durian ice cream without fresh milk </li>
+			<li>How to make durian ice cream without gelatin </li>
+			<li>How to make durian ice cream with fresh milk </li>
+			<li>How to make green bean durian ice cream </li>
+			<li>How to make chocolate durian ice cream </li>
+			<li>How to make banana durian ice cream </li>
+		</ul>
+	 	
+	 </div> <!--kết thúc detail content-->
+	</div>
+
+	<div style="clear: both;" class="menuList">
+		<div class="menuL">
+			<div class="top">
+				<h1>IceCream & Milk Tea</h1>
+				<h2>----------------Menu List----------------</h2>
+			</div>
+			<div class="listPrice">
+				<div class="price">
+					<input type="checkbox" value="2" name="Coconut cream" id="coconut">
+					<label for="coconut">Coconut cream</label>
+					<span>2$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="2.5" name="Strawberry IceCream" id="strawberry">
+					<label for="strawberry">Strawberry IceCream</label>
+					<span>2.5$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="3" name="Durian cream" id="durian">
+					<label for="durian">Durian cream</label>
+					<span>3$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="2" name="Butter cream" id="butter">
+					<label for="butter">Butter cream</label>
+					<span>2$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="3" name="Jackfuirt cream" id="jackfuirt">
+					<label for="jackfuirt">Jackfuirt cream</label>
+					<span>3$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="2.5" name="Lychee cream" id="lychee">
+					<label for="lychee">Lychee cream</label>
+					<span>2.5$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="2" name="Peach cream" id="peach">
+					<label for="peach">Peach cream</label>
+					<span>2$</span>
+				</div>
+				<div class="price">
+					<input type="checkbox" value="3" name="Kumqum cream" id="kumqum">
+					<label for="kumqum">Kumqum cream</label>
+					<span>3$</span>
+				</div>
+			</div>
+			<div id="btsubmit">
+				<input type="submit" id="submit" value="order">
+			</div>
+		</div>
+
+		<div class="menuR">
+			<div class="top2">
+				<h1>Your IceCream & Milk Tea</h1>
+				<h2>----------------Menu List----------------</h2>
+			</div>
+			<div class="listPrice">
+				
+			</div>
+			<div id="total">
+				<label for="total">Total amount: <span id="totalprice"></span></label>
+			</div>
+		</div>	
+
+	</div>
+
+
+	</div>
+	 
+	 	
+	 <div class="footer"> <!--content footer-->
+				
+				<p>Email : Icecream@gmail.com</p>
+				<p>Address: 100 To Hien Thanh, District 10, HCMC</p>
+				<h5>&copy; Copyright 2021. IceCream.com</h5>
+			
+	</div><!-- kết thúc footer-->
+	
+	 
+</div><!--Kết thúc container-->
+
+<!--Embed Javascript here-->
+<script lang="Javascript">
+	var submit = document.getElementById("submit");
+	submit.onclick = function(){
+		var input = document.getElementsByTagName("input");
+		if(!input[0].checked && !input[1].checked && !input[2].checked && !input[3].checked && !input[4].checked && !input[5].checked && !input[6].checked && !input[7].checked){
+			alert("Mời bạn order các loại kem, bạn đã chưa chọn các loại kem nào !!!")
+		}else{
+			var money=0;
+			var listPrice = document.getElementsByClassName("listPrice")[1];
+			var totalprice =document.getElementById("totalprice");
+			listPrice.innerHTML ="";
+			for(var i=0;i<input.length;i++){
+				if(input[i].checked){
+					listPrice.innerHTML += 
+					`<div class="listorder">
+						<p>${input[i].name}</p>
+					</div>`;
+					money +=Number(input[i].value);
+				}
+			}
+			totalprice.textContent = `${money}`;
+			var total = document.getElementById("total");
+			total.style.display='block';
+		}
+	};
+</script>
+
+\\
+
+</body>
+</html>

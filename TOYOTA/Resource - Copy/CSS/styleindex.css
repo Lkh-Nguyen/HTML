@@ -1,0 +1,72 @@
+
+h1{
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    color: #00C3C8;
+}
+
+.clear{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 10%;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#header button{
+    background-color: #000;
+    color: #fff;
+}
+
+#best-seller{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+#best-seller img{
+    width: 40%;
+}
+
+#partaccess {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3% 0;
+}
+
+#land_cruiser, #car2{
+    width: 50%;
+    display: flex;
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.price {
+    font-style: italic;
+    color: orange;
+}
+
+#footer{
+    background-color: #08A2C6;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

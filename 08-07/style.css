@@ -1,0 +1,45 @@
+#form{
+    background-color: rgb(243, 243, 243);
+    margin-top: 18px;
+    height: 1600px;
+    width: 890px;
+    margin-left: 750px;
+    margin-right: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+input[type="text"]{
+    width: 800px;
+    height: 40px;
+    padding-left: 20;
+    font-size: 16;
+}
+#form select{
+    width: 800px;
+    height: 40px;
+    padding-left: 20;
+    font-size: 16;
+}
+input[type="radio"]{
+    margin-bottom: 25px;
+}
+textarea{
+    font-size: 16;
+}
+input[type="submit"] {
+    margin-top: 20px;
+    height: 60px;
+    width: 835px;
+    background-color: rgb(106, 100, 241);
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 16;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+input[type="submit"]:hover {
+    color: rgb(106, 100, 241);
+    background-color: white;
+}
